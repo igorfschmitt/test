@@ -14,16 +14,19 @@
     var series = ['That 70s years show', 'Riverdale', 'Sex Education'];
     var comidas = ['Sorvete', 'Pizza', 'Sushi'];
     var hobbies = ['Fotografia', 'música', 'séries'];
+    var paises = ['Brasil', 'Canadá', 'Alemanha'];
 
     //document.write("E ai, o que vai querer descobrir? bandas, series, comidas ou hobbies?") 
 
-    alert("Sou uma pessoa muito famosa, quer descobrir algo sobre mim?")
-    alert("Descubra minhas bandas favoritas digitando : bandas")   
-    alert("Minhas séries favoritas digitando: series")
-    alert("minhas comidas favoritas digitando: comidas")
-    alert("E meus hobbies favoritos digitando: hobbies")
+    alert("Sou uma pessoa muito famosa, quer descobrir algo sobre mim?");
+    alert("Descubra minhas bandas favoritas digitando : bandas");   
+    alert("Minhas séries favoritas digitando: series");
+    alert("minhas comidas favoritas digitando: comidas");
+    alert("meus hobbies favoritos digitando: hobbies");
+    alert("E meus paises favoritos digitando: paises")
+    
 
-    var resposta = prompt("Digite o que você deseja descobrir")
+    var resposta = prompt("Digite o que você deseja descobrir");
 
     if(resposta == "bandas" || resposta == "Bandas"){
         alert(bandas)
@@ -36,6 +39,9 @@
     }
     else if(resposta == "hobbies" || resposta == "Hobbies"){
         alert(hobbies)
+    } 
+    else if(resposta == "paises"){
+        alert(paises)
     }
     else{
         alert("Você não escolheu uma opção válida")
