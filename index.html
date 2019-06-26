@@ -23,7 +23,23 @@
     alert("minhas comidas favoritas digitando: comidas")
     alert("E meus hobbies favoritos digitando: hobbies")
 
-    prompt("Digite o que você deseja descobrir")
+    var resposta = prompt("Digite o que você deseja descobrir")
+
+    if(resposta == "bandas" || resposta == "Bandas"){
+        alert(bandas)
+    } 
+    else if(resposta == "series" || resposta == "Series"){
+        alert(series)
+    }   
+    else if(resposta == "comidas" || resposta == "Comidas"){
+        alert(comidas)
+    }
+    else if(resposta == "hobbies" || resposta == "Hobbies"){
+        alert(hobbies)
+    }
+    else{
+        alert("Você não escolheu uma opção válida")
+    }
     </script>
 </body>
 </html>
